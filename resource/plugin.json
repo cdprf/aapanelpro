@@ -1,9 +1,9 @@
 {
     "type": [{
         "id": 5,
-        "title": "triển khai",
+        "title": "Deployment",
         "sort": 2,
-        "ps": "triển khai",
+        "ps": "Deployment",
         "icon": "icon"
     }, {
         "id": 6,
@@ -13,27 +13,27 @@
         "icon": "icon"
     }, {
         "id": 7,
-        "title": "1 số app bổ sung",
+        "title": "Some Additional Apps",
         "sort": 4,
-        "ps": "1 số app bổ sung",
+        "ps": "Some additional apps",
         "icon": "icon"
     }, {
         "id": 8,
-        "title": "phần mềm trả phí ",
+        "title": "Paid Software",
         "sort": 5,
-        "ps": "phần mềm trả phí",
+        "ps": "Paid software",
         "icon": "icon"
     }, {
         "id": 10,
-        "title": "mục vô tác dụng không lên cài",
+        "title": "Useless Items, Do Not Install",
         "sort": 7,
-        "ps": "mục vô tác dụng không lên cài",
+        "ps": "Useless items, do not install",
         "icon": "icon"
     }, {
         "id": 11,
-        "title": "triển khai một cú nhấp chuột",
+        "title": "One-Click Deployment",
         "sort": 8,
-        "ps": "Triển khai một cú nhấp chuột của mã nguồn bên thứ ba",
+        "ps": "One-click deployment of third-party source code",
         "icon": ""
     }],
     "beta": 0,
@@ -51,9 +51,9 @@
         "os": "Linux",
         "price": "9.50",
         "sort": 0,
-        "title": "Task manager",
+        "title": "Task Manager",
         "name": "task_manager",
-        "ps": "<p>Dễ dàng quản lý các quy trình, mục khởi động, người dùng, dịch vụ, tác vụ đã lên lịch, phiên ssh</p>",
+        "ps": "<p>Easily manage processes, startup items, users, services, scheduled tasks, ssh sessions</p>",
         "panel_pro": 0,
         "panel_ltd": 0,
         "panel_free": 0,
@@ -88,9 +88,9 @@
         "os": "Linux",
         "price": "0.00",
         "sort": 0,
-        "title": "Node.js version manager",
+        "title": "Node.js Version Manager",
         "name": "nodejs",
-        "ps": "<p>các công cụ của pm2 tự tìm hiểu</p>",
+        "ps": "<p>pm2 tools, explore on your own</p>",
         "panel_pro": 0,
         "panel_ltd": 0,
         "panel_free": 0,
@@ -127,7 +127,7 @@
         "sort": 1,
         "title": "Apache WAF",
         "name": "btwaf_httpd",
-        "ps": "<p>chống ddos tối ưu như nginx waf</p>",
+        "ps": "<p>DDoS protection optimized like nginx waf</p>",
         "panel_pro": 0,
         "panel_ltd": 1,
         "panel_free": 0,
@@ -162,9 +162,9 @@
         "os": "Linux",
         "price": "9.50",
         "sort": 1,
-        "title": "chống ddos theo nginx ",
+        "title": "Nginx DDoS Protection",
         "name": "btwaf",
-        "ps": "<p>chống ddos mạnh sợ mỗi botnet nếu botnet ngoại set block ip ngoại trên cf <a class=\"btlink\" href=\"https://forum.aapanel.com/d/3351-3351-nginx-waf-instructions\" target=\"_blank\" rel=\"noopener\">&gt;&gt; không hiểu thì liên hệ với admin tool</a></p>",
+        "ps": "<p>Strong DDoS protection, only fears botnets. If external botnets, block external IPs on CF <a class=\"btlink\" href=\"https://forum.aapanel.com/d/3351-3351-nginx-waf-instructions\" target=\"_blank\" rel=\"noopener\">&gt;&gt; Contact admin if you don't understand</a></p>",
         "panel_pro": 0,
         "panel_ltd": 1,
         "panel_free": 0,
@@ -190,7 +190,7 @@
             "mem_limit": 32,
             "cpu_limit": 1,
             "os_limit": 0,
-            "update_msg": "<p>1. Fixed recording CC attack blocking time bug</p>"
+            "update_msg": "<p>1. Fixed CC attack blocking time recording bug</p>"
         }]
     }, {
         "id": 140,
@@ -201,7 +201,7 @@
         "sort": 2,
         "title": "aaPanel Mobile",
         "name": "btapp",
-        "ps": "<p>không dùng được đâu trừ khi mua trên tài khoản login aapanel</p>",
+        "ps": "<p>Cannot be used unless purchased on aaPanel login account</p>",
         "panel_pro": 0,
         "panel_ltd": 1,
         "panel_free": 0,
@@ -236,9 +236,9 @@
         "os": "Linux",
         "price": "9.50",
         "sort": 2,
-        "title": "Website statistics",
+        "title": "Website Statistics",
         "name": "total",
-        "ps": "<p>Thống kê và so sánh lưu lượng truy cập trang web, ip, uv, pv, request, spider và các dữ liệu khác. (Hiện tại chỉ hỗ trợ Nginx và Apache, Ubuntu và Centos)<strong> </strong></p>",
+        "ps": "<p>Statistics and comparison of website traffic, ip, uv, pv, requests, spiders, and other data. (Currently only supports Nginx and Apache, Ubuntu and Centos)<strong> </strong></p>",
         "panel_pro": 0,
         "panel_ltd": 1,
         "panel_free": 0,
@@ -275,7 +275,7 @@
         "sort": 3,
         "title": "Sync Tool",
         "name": "rsync",
-        "ps": "<p>Công cụ đồng bộ hóa dữ liệu thời gian thực / thời gian dựa trên rsync<strong> </strong></p>",
+        "ps": "<p>Real-time / scheduled data synchronization tool based on rsync<strong> </strong></p>",
         "panel_pro": 0,
         "panel_ltd": 1,
         "panel_free": 0,
@@ -312,7 +312,7 @@
         "sort": 3,
         "title": "Website Tamper-proof",
         "name": "tamper_proof",
-        "ps": "<p>Chống giả mạo kiểu sự kiện, có thể bảo vệ hiệu quả các tệp trang web quan trọng khỏi bị giả mạo</p>",
+        "ps": "<p>Event-type tamper protection, can effectively protect critical website files from tampering</p>",
         "panel_pro": 0,
         "panel_ltd": 1,
         "panel_free": 0,
@@ -347,9 +347,9 @@
         "os": "Linux",
         "price": "9.50",
         "sort": 6,
-        "title": "Load balance",
+        "title": "Load Balancer",
         "name": "load_balance",
-        "ps": "<p>Cân bằng tải dựa trên nginx, vui lòng cài đặt nginx trước khi sử dụng</p>",
+        "ps": "<p>Nginx-based load balancing, please install nginx before use</p>",
         "panel_pro": 0,
         "panel_ltd": 1,
         "panel_free": 0,
@@ -384,9 +384,9 @@
         "os": "Linux",
         "price": "2.95",
         "sort": 100,
-        "title": "Abnormal Push",
+        "title": "Abnormality Push",
         "name": "msg_push",
-        "ps": "<p>Thông báo đẩy bất thường, có thể theo dõi và đẩy trạng thái của tài nguyên máy chủ, trang web, thời gian hết hạn SSL, v.v.</p>",
+        "ps": "<p>Abnormality push notifications, can monitor and push server resource status, website status, SSL expiration, etc.</p>",
         "panel_pro": 0,
         "panel_ltd": 1,
         "panel_free": 0,
@@ -421,9 +421,9 @@
         "os": "Linux",
         "price": "9.50",
         "sort": 100,
-        "title": "System hardening",
+        "title": "System Hardening",
         "name": "syssafe",
-        "ps": "<p>Cung cấp các chức năng gia cố linh hoạt để ngăn chặn hiệu quả sự xâm nhập độc hại</p>",
+        "ps": "<p>Provides flexible hardening functions to effectively prevent malicious intrusions</p>",
         "panel_pro": 0,
         "panel_ltd": 1,
         "panel_free": 0,
@@ -458,9 +458,9 @@
         "os": "Linux",
         "price": "0.00",
         "sort": 100,
-        "title": "IP setup tool",
+        "title": "IP Setup Tool",
         "name": "ip_configuration",
-        "ps": "<p>IP ràng buộc thẻ mạng, Hệ thống hỗ trợ: CENTOS7 / DEBIAN10 / UBUNTU18 / UBUNTU20</p>",
+        "ps": "<p>IP binding network card, Supported Systems: CENTOS7 / DEBIAN10 / UBUNTU18 / UBUNTU20</p>",
         "panel_pro": 0,
         "panel_ltd": 0,
         "panel_free": 0,
@@ -497,7 +497,7 @@
         "sort": 101,
         "title": "Nginx",
         "name": "nginx",
-        "ps": "Nhẹ, ít bộ nhớ, khả năng đồng thời",
+        "ps": "Lightweight, low memory, high concurrency",
         "panel_pro": 1,
         "panel_ltd": 1,
         "panel_free": 1,
@@ -630,7 +630,7 @@
         "sort": 102,
         "title": "Apache",
         "name": "apache",
-        "ps": "nhanh chóng, đáng tin cậy và có thể mở rộng thông qua các API đơn giản",
+        "ps": "Fast, reliable, and extensible through simple APIs",
         "panel_pro": 1,
         "panel_ltd": 1,
         "panel_free": 1,
@@ -675,7 +675,7 @@
         "sort": 103,
         "title": "MySQL",
         "name": "mysql",
-        "ps": "MySQL là một hệ quản trị cơ sở dữ liệu!",
+        "ps": "MySQL is a relational database management system!",
         "panel_pro": 1,
         "panel_ltd": 1,
         "panel_free": 1,
@@ -816,7 +816,7 @@
         "sort": 104,
         "title": "PHP",
         "name": "php",
-        "ps": "PHP ",
+        "ps": "PHP",
         "panel_pro": 1,
         "panel_ltd": 1,
         "panel_free": 1,
@@ -941,7 +941,7 @@
         "sort": 105,
         "title": "Pure-Ftpd",
         "name": "pureftpd",
-        "ps": "PureFTPd là một phần mềm máy chủ FTP miễn phí tập trung vào tính mạnh mẽ của chương trình và bảo mật phần mềm.",
+        "ps": "PureFTPd is a free FTP server software focused on program robustness and software security.",
         "panel_pro": 1,
         "panel_ltd": 1,
         "panel_free": 1,
@@ -978,7 +978,7 @@
         "sort": 106,
         "title": "phpMyAdmin",
         "name": "phpmyadmin",
-        "ps": "Công cụ quản lý MySQL ",
+        "ps": "MySQL management tool",
         "panel_pro": 1,
         "panel_ltd": 1,
         "panel_free": 1,
@@ -1053,9 +1053,9 @@
         "os": "Linux",
         "price": "0.00",
         "sort": 107,
-        "title": "WebSite Speed",
+        "title": "Website Speed",
         "name": "site_speed",
-        "ps": "nói chung là tăng tốc độ load web ",
+        "ps": "Generally increases website load speed",
         "panel_pro": 1,
         "panel_ltd": 1,
         "panel_free": 1,
@@ -1081,7 +1081,7 @@
             "mem_limit": 32,
             "cpu_limit": 1,
             "os_limit": 0,
-            "update_msg": "<p>1.Điều chỉnh giao diện front-end<br />2.Điều chỉnh giới hạn gia tốc tự do thành giới hạn số<br />3.Fix bugs đã có trong danh sách lỗi</p>"
+            "update_msg": "<p>1. Adjust front-end interface<br />2. Adjust free acceleration limit to number limit<br />3. Fix existing bugs in the bug list</p>"
         }]
     }, {
         "id": 65,
@@ -1092,7 +1092,7 @@
         "sort": 108,
         "title": "Java Manager",
         "name": "tomcat2",
-        "ps": "Sự lựa chọn đầu tiên để phát triển và gỡ lỗi các chương trình JSP",
+        "ps": "First choice for developing and debugging JSP programs",
         "panel_pro": 1,
         "panel_ltd": 1,
         "panel_free": 1,
@@ -1118,7 +1118,7 @@
             "mem_limit": 32,
             "cpu_limit": 1,
             "os_limit": 0,
-            "update_msg": "1. Cập nhật từng trang web thành một dự án riêng biệt\n2.Sự cố khi sửa đổi các cổng\n3.sửa mã logic\n\n1. Cập nhật từng trang web thành một dự án riêng biệt\n2. Sự cố khi sửa đổi các cổng\n3. Fix code logic"
+            "update_msg": "1. Update each website to a separate project\n2. Issue when modifying ports\n3. Fix logic code\n\n1. Update each website to a separate project\n2. Issue when modifying ports\n3. Fix code logic"
         }]
     }, {
         "id": 15,
@@ -1129,7 +1129,7 @@
         "sort": 108,
         "title": "PM2 Manager",
         "name": "pm2",
-        "ps": "Node.js Manager quản lý node.js + npm + nvm + pm2.",
+        "ps": "Node.js Manager manages node.js + npm + nvm + pm2.",
         "panel_pro": 1,
         "panel_ltd": 1,
         "panel_free": 1,
@@ -1166,7 +1166,7 @@
         "sort": 109,
         "title": "Docker Manager",
         "name": "docker",
-        "ps": "Docker Là một công cụ chứa ứng dụng mã nguồn mở",
+        "ps": "Docker is an open-source application containerization tool",
         "panel_pro": 1,
         "panel_ltd": 1,
         "panel_free": 1,
@@ -1192,7 +1192,7 @@
             "mem_limit": 768,
             "cpu_limit": 1,
             "os_limit": 0,
-            "update_msg": "1. Thêm chế độ xem nhật ký vùng chứa..\n2. Thêm thiết bị đầu cuối\n3. Tự động nén để tiết kiệm dung lượng khi xuất hình ảnh."
+            "update_msg": "1. Added container log view..\n2. Added terminal\n3. Auto compress to save space when exporting images."
         }]
     }, {
         "id": 17,
@@ -1203,7 +1203,7 @@
         "sort": 110,
         "title": "MongoDB",
         "name": "mongodb",
-        "ps": "Cơ sở dữ liệu dựa trên lưu trữ tệp phân tán",
+        "ps": "File storage-based distributed database",
         "panel_pro": 1,
         "panel_ltd": 1,
         "panel_free": 1,
@@ -1240,7 +1240,7 @@
         "sort": 111,
         "title": "Memcached",
         "name": "memcached",
-        "ps": "Memcached ",
+        "ps": "Memcached",
         "panel_pro": 1,
         "panel_ltd": 1,
         "panel_free": 1,
@@ -1277,7 +1277,7 @@
         "sort": 112,
         "title": "Redis",
         "name": "redis",
-        "ps": "Redis ",
+        "ps": "Redis",
         "panel_pro": 1,
         "panel_ltd": 1,
         "panel_free": 1,
@@ -1314,7 +1314,7 @@
         "sort": 113,
         "title": "Openlitespeed",
         "name": "openlitespeed",
-        "ps": "OpenLiteSpeed là phiên bản Mã nguồn mở của LiteSpeed Web Server Enterprise.",
+        "ps": "OpenLiteSpeed is the Open Source version of LiteSpeed Web Server Enterprise.",
         "panel_pro": 1,
         "panel_ltd": 1,
         "panel_free": 1,
@@ -1349,9 +1349,9 @@
         "os": "Linux",
         "price": "0.00",
         "sort": 114,
-        "title": "Dns Manager",
+        "title": "DNS Manager",
         "name": "dns_manager",
-        "ps": "<p>Xây dựng máy chủ dns của riêng bạn dựa trên pdns, hỗ trợ centos7 / 8, ubuntu 18/20, debian10</p>",
+        "ps": "<p>Build your own DNS server based on pdns, supports centos7 / 8, ubuntu 18/20, debian10</p>",
         "panel_pro": 1,
         "panel_ltd": 1,
         "panel_free": 1,
@@ -1377,7 +1377,7 @@
             "mem_limit": 32,
             "cpu_limit": 1,
             "os_limit": 0,
-            "update_msg": "<p>Khắc phục sự</p>"
+            "update_msg": "<p>Fixed issue</p>"
         }]
     }, {
         "id": 139,
@@ -1388,7 +1388,7 @@
         "sort": 114,
         "title": "DDNS Manager",
         "name": "bt_ddns",
-        "ps": "Tự động cập nhật IP động cho tên miền của bạn. (Hiện tại chỉ Cloudflare được hỗ trợ)",
+        "ps": "Automatically update dynamic IP for your domain. (Currently only Cloudflare supported)",
         "panel_pro": 1,
         "panel_ltd": 1,
         "panel_free": 1,
@@ -1425,7 +1425,7 @@
         "sort": 114,
         "title": "Fail2ban Manager",
         "name": "fail2ban",
-        "ps": "cấm các máy chủ gây ra nhiều lỗi xác thực",
+        "ps": "Ban servers that cause multiple authentication errors",
         "panel_pro": 1,
         "panel_ltd": 1,
         "panel_free": 1,
@@ -1451,7 +1451,7 @@
             "mem_limit": 32,
             "cpu_limit": 1,
             "os_limit": 0,
-            "update_msg": "<p>Tối ưu hóa trình quản lý fail2ban để phù hợp với IPv6</p>"
+            "update_msg": "<p>Optimized fail2ban manager for IPv6 compatibility</p>"
         }]
     }, {
         "id": 154,
@@ -1460,9 +1460,9 @@
         "os": "Linux",
         "price": "0.00",
         "sort": 114,
-        "title": "Cloud dns",
+        "title": "Cloud DNS",
         "name": "cloud_dns",
-        "ps": "<p>Quản lý độ phân giải DNS đám mây của bạn (Hỗ trợ: Cloudflare / DnsPods / Aliyun)</p>",
+        "ps": "<p>Manage your cloud DNS resolution (Supports: Cloudflare / DnsPods / Aliyun)</p>",
         "panel_pro": 0,
         "panel_ltd": 0,
         "panel_free": 0,
@@ -1499,7 +1499,7 @@
         "sort": 114,
         "title": "Mail Server",
         "name": "mail_sys",
-        "ps": "<p>Xây dựng Máy chủ Thư cho chính bạn, Hỗ trợ centos 7/8, ubuntu 20/21, debian 10</p>",
+        "ps": "<p>Build a Mail Server for yourself, Supports centos 7/8, ubuntu 20/21, debian 10</p>",
         "panel_pro": 1,
         "panel_ltd": 1,
         "panel_free": 1,
@@ -1525,7 +1525,7 @@
             "mem_limit": 32,
             "cpu_limit": 1,
             "os_limit": 0,
-            "update_msg": "<p>Tối ưu hóa cách tải xuống tệp</p>"
+            "update_msg": "<p>Optimized file download method</p>"
         }]
     }, {
         "id": 156,
@@ -1534,9 +1534,9 @@
         "os": "Linux",
         "price": "14.50",
         "sort": 115,
-        "title": "Chống xâm nhập",
+        "title": "Intrusion Protection",
         "name": "bt_security",
-        "ps": "<p>Bảo vệ hiệu quả chống lại sự xâm nhập vào hệ thống thông qua các quy trình như trang web.</p>",
+        "ps": "<p>Effectively protects against intrusion into the system through processes like websites.</p>",
         "panel_pro": 0,
         "panel_ltd": 1,
         "panel_free": 0,
@@ -1573,7 +1573,7 @@
         "sort": 115,
         "title": "NFS Manager",
         "name": "nfs_tools",
-        "ps": "<p>Chia sẻ tệp dựa trên dịch vụ NFS, bao gồm tạo chia sẻ và gắn kết NFS từ xa</p>",
+        "ps": "<p>File sharing based on NFS service, includes creating shares and mounting remote NFS</p>",
         "panel_pro": 0,
         "panel_ltd": 1,
         "panel_free": 0,
@@ -1599,7 +1599,7 @@
             "mem_limit": 0,
             "cpu_limit": 0,
             "os_limit": 0,
-            "update_msg": "<p>Tăng khả năng tương thích của ubuntu / debian<br />Tối ưu hóa hiển thị</p>"
+            "update_msg": "<p>Increased compatibility for ubuntu / debian<br />Optimized display</p>"
         }]
     }, {
         "id": 83,
@@ -1608,9 +1608,9 @@
         "os": "Linux",
         "price": "0.00",
         "sort": 115,
-        "title": "One-click migration thử nghiệm ver 1.0",
+        "title": "One-Click Migration Test Version 1.0",
         "name": "psync_api",
-        "ps": "Nhanh chóng di chuyển dữ liệu bảng điều khiển!",
+        "ps": "Quickly migrate panel data!",
         "panel_pro": 1,
         "panel_ltd": 1,
         "panel_free": 1,
@@ -1636,7 +1636,7 @@
             "mem_limit": 32,
             "cpu_limit": 1,
             "os_limit": 0,
-            "update_msg": "1. Đã thêm [Chế độ nhà phát triển] không có lời nhắc\n2. Đã khắc phục sự cố không di chuyển liên kết thư mục con và danh sách chuyển hướng\n3. Khắc phục sự cố do đường dẫn nhật ký trang web bị sửa đổi\n4. Thêm hỗ trợ di chuyển cho giao thức acme mới"
+            "update_msg": "1. Added [Developer Mode] without prompts\n2. Fixed issue with not migrating symlinks and redirect lists\n3. Fixed issue due to modified website log path\n4. Added migration support for new acme protocol"
         }]
     }, {
         "id": 69,
@@ -1647,7 +1647,7 @@
         "sort": 115,
         "title": "Python Manager",
         "name": "pythonmamager",
-        "ps": "Quản lý Python nhiều phiên bản và các dự án",
+        "ps": "Manage multiple Python versions and projects",
         "panel_pro": 1,
         "panel_ltd": 1,
         "panel_free": 1,
@@ -1673,7 +1673,7 @@
             "mem_limit": 32,
             "cpu_limit": 1,
             "os_limit": 0,
-            "update_msg": "<p>1. Thêm tạo nhật ký<br />2. Thêm nhật ký cài đặt Python<br />3. Không còn sử dụng pyenv để quản lý con trăn nữa<br />4. Tối ưu hóa quá trình tạo</p>"
+            "update_msg": "<p>1. Added log creation<br />2. Added Python installation log<br />3. No longer using pyenv to manage Python<br />4. Optimized creation process</p>"
         }]
     }, {
         "id": 21,
@@ -1682,9 +1682,9 @@
         "os": "Linux",
         "price": "0.00",
         "sort": 115,
-        "title": "one-click deployment",
+        "title": "One-Click Deployment",
         "name": "deployment",
-        "ps": "Nhanh chóng triển khai các chương trình chung",
+        "ps": "Quickly deploy common programs",
         "panel_pro": 1,
         "panel_ltd": 1,
         "panel_free": 1,
@@ -1721,7 +1721,7 @@
         "sort": 116,
         "title": "PostgreSQL Manager",
         "name": "pgsql_manager",
-        "ps": "cài đặt và quản lý cơ sở dữ liệu PostgreSQL",
+        "ps": "Install and manage PostgreSQL database",
         "panel_pro": 1,
         "panel_ltd": 1,
         "panel_free": 1,
@@ -1747,7 +1747,7 @@
             "mem_limit": 32,
             "cpu_limit": 1,
             "os_limit": 0,
-            "update_msg": "<p>1. Thêm chức năng sửa đổi mật khẩu cơ sở dữ liệu</p>"
+            "update_msg": "<p>1. Added database password modification function</p>"
         }]
     }, {
         "id": 24,
@@ -1758,7 +1758,7 @@
         "sort": 118,
         "title": "FTP Storage",
         "name": "ftp",
-        "ps": "Đóng gói trang web hoặc cơ sở dữ liệu trở lại không gian lưu trữ FTP.",
+        "ps": "Backup website or database to FTP storage space.",
         "panel_pro": 1,
         "panel_ltd": 1,
         "panel_free": 1,
@@ -1784,7 +1784,7 @@
             "mem_limit": 32,
             "cpu_limit": 1,
             "os_limit": 0,
-            "update_msg": "<p>Thông báo lỗi sao lưu bảng điều khiển khả năng tương thích</p>"
+            "update_msg": "<p>Panel backup error message compatibility</p>"
         }]
     }, {
         "id": 128,
@@ -1795,7 +1795,7 @@
         "sort": 120,
         "title": "AWS S3",
         "name": "aws_s3",
-        "ps": "Đóng gói và sao lưu trang web hoặc cơ sở dữ liệu vào AWS S3",
+        "ps": "Package and backup website or database to AWS S3",
         "panel_pro": 1,
         "panel_ltd": 1,
         "panel_free": 1,
@@ -1821,7 +1821,7 @@
             "mem_limit": 32,
             "cpu_limit": 1,
             "os_limit": 0,
-            "update_msg": "<p>Điều chỉnh kích thước truyền phân mảnh thành 20MB<br />Sửa lỗi không thể giữ các tệp sao lưu cục bộ</p>"
+            "update_msg": "<p>Adjusted fragment transfer size to 20MB<br />Fixed bug with not keeping local backup files</p>"
         }]
     }, {
         "id": 97,
@@ -1832,7 +1832,7 @@
         "sort": 120,
         "title": "Google Drive",
         "name": "gdrive",
-        "ps": "Giúp bạn sao lưu dữ liệu trang web của mình vào Google Drive",
+        "ps": "Helps you backup your website data to Google Drive",
         "panel_pro": 1,
         "panel_ltd": 1,
         "panel_free": 1,
@@ -1858,7 +1858,7 @@
             "mem_limit": 32,
             "cpu_limit": 1,
             "os_limit": 0,
-            "update_msg": "<p>Đã thêm chức năng thông báo lỗi sao lưu</p>"
+            "update_msg": "<p>Added backup error notification function</p>"
         }]
     }, {
         "id": 90,
@@ -1869,7 +1869,7 @@
         "sort": 120,
         "title": "Google Cloud Storage",
         "name": "gcloud_storage",
-        "ps": "Sao lưu trang web hoặc cơ sở dữ liệu của bạn vào một gói Google Cloud Storage",
+        "ps": "Backup your website or database to a Google Cloud Storage package",
         "panel_pro": 1,
         "panel_ltd": 1,
         "panel_free": 1,
@@ -1895,7 +1895,7 @@
             "mem_limit": 32,
             "cpu_limit": 1,
             "os_limit": 0,
-            "update_msg": "<p>Hỗ trợ khôi phục trang web</p>"
+            "update_msg": "<p>Support website restore</p>"
         }]
     }, {
         "id": 127,
@@ -1904,9 +1904,9 @@
         "os": "Linux",
         "price": "0.00",
         "sort": 121,
-        "title": "SYS Firewall",
+        "title": "System Firewall",
         "name": "firewall",
-        "ps": "Cung cấp chức năng quản lý GUI của tường lửa hệ thống (iptables / firewall / ufw)",
+        "ps": "Provides GUI management function for system firewall (iptables / firewall / ufw)",
         "panel_pro": 1,
         "panel_ltd": 1,
         "panel_free": 1,
@@ -1932,7 +1932,7 @@
             "mem_limit": 32,
             "cpu_limit": 1,
             "os_limit": 0,
-            "update_msg": "<p>1. Khắc phục không thể xóa các quy tắc khu vực</p>"
+            "update_msg": "<p>1. Fixed cannot delete zone rules</p>"
         }]
     }, {
         "id": 28,
@@ -1943,7 +1943,7 @@
         "sort": 122,
         "title": "WebHook",
         "name": "webhook",
-        "ps": "WebHook, có thể đặt các tập lệnh gọi lại, thường được sử dụng cho các thông báo gọi lại của bên thứ ba!",
+        "ps": "WebHook, can set callback scripts, often used for third-party callback notifications!",
         "panel_pro": 1,
         "panel_ltd": 1,
         "panel_free": 1,
@@ -1969,7 +1969,7 @@
             "mem_limit": 32,
             "cpu_limit": 1,
             "os_limit": 0,
-            "update_msg": "<p>Tối ưu hóa và xóa mã WebHook</p>"
+            "update_msg": "<p>Optimized and cleaned WebHook code</p>"
         }]
     }, {
         "id": 32,
@@ -1980,7 +1980,7 @@
         "sort": 126,
         "title": "Linux Tools",
         "name": "linuxsys",
-        "ps": "Các công cụ hệ thống Linux, cấu hình DNS, Swap, múi giờ, cấu hình IP, đĩa nhớ!",
+        "ps": "Linux system tools, configure DNS, Swap, timezone, IP configuration, disk memory!",
         "panel_pro": 1,
         "panel_ltd": 1,
         "panel_free": 1,
@@ -2006,7 +2006,7 @@
             "mem_limit": 32,
             "cpu_limit": 1,
             "os_limit": 0,
-            "update_msg": "Khắc phục sự cố ubuntu20 bị lỗi dns"
+            "update_msg": "Fixed Ubuntu20 DNS error issue"
         }]
     }, {
         "id": 33,
@@ -2015,9 +2015,9 @@
         "os": "Linux",
         "price": "0.00",
         "sort": 127,
-        "title": " PHP Guardian",
+        "title": "PHP Guardian",
         "name": "phpguard",
-        "ps": "Theo dõi trạng thái đang chạy của PHP-FPM để ngăn chặn một số lượng lớn các lỗi 502!",
+        "ps": "Monitor PHP-FPM running status to prevent a large number of 502 errors!",
         "panel_pro": 1,
         "panel_ltd": 1,
         "panel_free": 1,
@@ -2054,7 +2054,7 @@
         "sort": 128,
         "title": "Supervisor",
         "name": "supervisor",
-        "ps": "chương trình quản lý quy trình chung được phát triển bởi Python",
+        "ps": "General process management program developed by Python",
         "panel_pro": 1,
         "panel_ltd": 1,
         "panel_free": 1,
@@ -2080,7 +2080,7 @@
             "mem_limit": 32,
             "cpu_limit": 1,
             "os_limit": 0,
-            "update_msg": "Khắc phục sự cố tương thích với python"
+            "update_msg": "Fixed Python compatibility issue"
         }]
     }, {
         "id": 47,
@@ -2089,9 +2089,9 @@
         "os": "Linux",
         "price": "0.00",
         "sort": 131,
-        "title": "Dọn dẹp nhật ký",
+        "title": "Log Cleanup",
         "name": "clear",
-        "ps": "Một cú nhấp chuột để xóa nhật ký và thùng rác hệ thống",
+        "ps": "One-click to clear system logs and trash",
         "panel_pro": 1,
         "panel_ltd": 1,
         "panel_free": 1,
@@ -2117,7 +2117,7 @@
             "mem_limit": 32,
             "cpu_limit": 1,
             "os_limit": 0,
-            "update_msg": "Thêm quét nhật ký hệ thống"
+            "update_msg": "Added system log scanning"
         }]
     }, {
         "id": 132,
@@ -2126,9 +2126,9 @@
         "os": "Linux",
         "price": "0.00",
         "sort": 132,
-        "title": "Cổng chống thư rác",
+        "title": "Anti-Spam Gateway",
         "name": "anti_spam",
-        "ps": "Cho phép máy chủ thư truy cập và lọc thư rác / vi rút",
+        "ps": "Allow mail server access and filter spam / viruses",
         "panel_pro": 1,
         "panel_ltd": 1,
         "panel_free": 1,
@@ -2164,8 +2164,8 @@
         "sort": 1000,
         "price": 0,
         "name": "free_waf",
-        "title": "không lên bật anti này",
-        "ps": "liên hệ để cài bản chính</p>",
+        "title": "Do Not Enable This Anti-DDoS",
+        "ps": "Contact to install the main version</p>",
         "panel_pro": 1,
         "panel_ltd": 1,
         "panel_free": 1,
@@ -2181,7 +2181,7 @@
         "uninstall_checks": "/www/server/panel/plugin/free_waf",
         "compile_args": 0,
         "version_coexist": 0,
-        "author": "anti ddos free tệ lắm",
+        "author": "Free anti ddos is very bad",
         "home": "https://www.facebook.com/ninh.phm",
         "min_image": "/api/plugin/download?filename=images/98/8a/988a4ea357dc840132e0e22000a86c1b.png",
         "install_opt": 0,
@@ -2195,7 +2195,7 @@
             "mem_limit": 32,
             "cpu_limit": 1,
             "os_limit": 0,
-            "version_msg": "Chống ddos miễn phí không lên dùng",
+            "version_msg": "Free anti-ddos, do not use",
             "update_msg": "",
             "download": "plugins/97/27/97279f1212c7a2cdee177b5ce460c9b7.zip",
             "md5": "7e73cedaad81c996423a857309634a10",
