@@ -31,7 +31,7 @@ chattr +i /www/server/panel/data/plugin.json
 chattr -i /www/server/panel/data/repair.json
 rm /www/server/panel/data/repair.json
 cd /www/server/panel/data
-wget https://raw.githubusercontent.com/cdprf/apanel/refs/heads/main/resource/repair.json
+wget https://raw.githubusercontent.com/cdprf/aapanelpro/refs/heads/main/resource/repair.json
 chattr +i /www/server/panel/data/repair.json
 red "cracked successfully."
 }
@@ -54,7 +54,7 @@ chattr +i -R /www/server/panel/logs/request
 function start_menu(){
     clear
     purple " Thank you for using the aaPanel tool."
-    purple " https://github.com/cdprf/apanel"
+    purple " https://github.com/cdprf/aapanelpro"
     yellow " ————————————————————————————————————————————————"
     green " 1. Install aaPanel on CentOS/Debian/Ubuntu"
     yellow " ————————————————————————————————————————————————"
